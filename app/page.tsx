@@ -14,9 +14,11 @@ export default function Home() {
       <ServicesSection />
       <AboutSection />
       <PricingSection />
-      <div className="text-center text-neutral-500 ">
-        all rights reserved pixel grid 2026
-      </div>
+      <footer className="py-12  mt-20">
+        <div className="container mx-auto px-4 text-center text-neutral-500 text-sm">
+          &copy; 2026 Pixel Grid. All rights reserved.
+        </div>
+      </footer>
     </div>
   );
 }

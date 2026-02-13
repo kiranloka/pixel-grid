@@ -599,6 +599,11 @@ const NodeWrapper = ({
   label,
   delay,
   activeColor = "border-white/10",
+}: {
+  children: React.ReactNode;
+  label: string;
+  delay: number;
+  activeColor?: string;
 }) => (
   <div className="flex flex-col items-center gap-2">
     <motion.div
